@@ -18,3 +18,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  margin: 33px;
+}
+
+h1{
+  font-size: 26px;
+  margin: auto 0;
+}
+p{
+  margin: 33px;
+}
+
+table{
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+th{
+  padding-bottom: 5px;
+}
