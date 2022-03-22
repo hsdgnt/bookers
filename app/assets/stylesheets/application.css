@@ -21,12 +21,18 @@
 
 body {
   margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+#notice{
+  color: green;
 }
 
 h1{
   font-size: 26px;
-  margin: auto 0;
+  margin:17.42px 0;
 }
+
 p{
   margin: 33px;
 }
@@ -39,4 +45,61 @@ table{
 
 th{
   padding-bottom: 5px;
+}
+
+td{
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.newbook{
+  margin: 16.185px 0;
+  font-size: 19.5px;
+}
+
+#error_explanation h2{
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation{
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+ul{
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+.field{
+  margin-bottom: 10px;
+}
+
+label{
+  display: block;
+}
+
+.action{
+  margin: 10px 0 ;
+}
+.edit{
+  margin-right: 5px;
+}
+
+.back{
+  padding-left: 5px;
+  border-left: solid ;
 }
