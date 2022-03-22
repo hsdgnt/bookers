@@ -13,5 +13,5 @@
   <strong>Body:</strong>
   <%= @book.body %>
 </p>
-<a class="edit"> <%= link_to "Edit", edit_book_path(@book.id) %> </a>
-<a class="back" href="/books">Back</a>
+<span class="edit"> <%= link_to "Edit" , edit_book_path(@book.id) %> </span>
+<span class="back"> <%= link_to "Back" , books_path %> </span>
